@@ -1,0 +1,151 @@
+.navbar{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar .logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: cursive;
+}
+.navbar .all-links a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 35px;
+}
+.navbar .all-links li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar .all-links{
+    display: flex;
+    position: relative;
+}
+.navbar .all-links a:hover {
+    text-decoration: underline;
+    color: lightslategray;
+    font-size: 40px;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url("Resources/image3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home .home-content{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 30px;
+    color: coral;
+    font-family: cursive;
+     font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-two{
+    font-size: 30px;
+    color: coral;
+    font-family: cursive;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 30px;
+    color: coral;
+    font-family: cursive;
+     font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-four{
+     font-size: 30px;
+    color: coral;
+    font-family: cursive;
+     font-weight: 600;
+    margin-left: -3px;
+}
+.home .button{
+    padding: 14px 0;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: dimgray;
+    color: bisque;
+    cursor: pointer;
+}
+.home .button button:hover{
+    border-color: navajowhite;
+    background-color: navajowhite;
+    color: dimgrey;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Resources/camp.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about .about-content{
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.about .about-one{
+    color: coral;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "JetBrains Mono ExtraBold";
+}
+.about .about-two{
+    color: coral;
+    font-size: 25px;
+    text-align: center;
+}
+.about .about-three{
+    color: coral;
+    font-size: 25px;
+    text-align: center;
+}
+.about .about-button{
+   padding: 34px 0;
+   text-align: center;
+}
+.about .about-button button{
+     padding: 8px 16px;
+    outline: none;
+
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: dimgray;
+    color: bisque;
+    cursor: pointer;
+}
+.about .about-button button:hover{
+       border-color: navajowhite;
+    background-color: navajowhite;
+    color: dimgrey;
+}

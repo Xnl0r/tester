@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        h1{
+            font-family: cursive;
+            text-align: center;
+            text-decoration: underline;
+            color: lightskyblue;
+            font-size: 50px;
+        }
+        h5{
+            font-size: 30px;
+            font-family: cursive;
+            text-decoration: underline;
+            color: cornflowerblue;
+        }
+        form{
+            background-color: lightgoldenrodyellow;
+            width: 400px;
+            border: solid;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 20px;
+            font-size: 18px;
+        }
+        .input-section{
+            font-family: cursive;
+            font-size: 22px;
+        }
+        .input-section input{
+             background-color: lightgray;
+        }
+        #button{
+            border-radius: 10px;
+        }
+        #button input{
+            background-color: lightgray;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        .input-checkbox{
+            font-family: cursive;
+            font-size: 22px;
+        }
+        .input-checkbox input{
+            background-color: lightgray;
+        }
+        .input{
+            font-family: cursive;
+            font-size: 22px;
+        }
+        .input select{
+            font-family: cursive;
+            font-size: 22px;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <h1>Employee Detail</h1>
+    <h5>BIO DATA</h5>
+    <div class="input-section">
+         <label for="">NAME</label>
+         <input type="text"> <br><br>
+    </div>
+    <div class="input-section">
+         <label for="">MOBILE No.</label>
+         <input type="text"> <br><br>
+    </div>
+    <div class="input-checkbox">
+    <label for="">GENDER;</label>
+    Male: <input type="radio" name="gender" value="male">
+    Female: <input type="radio" name="gender" value="female"> <br><br>
+    <label for="">Hobbies:</label>
+    Dancing: <input type="checkbox" name="hobby" value="dancing">
+    Singing: <input type="checkbox" name="hobby" value="singing">
+    Soccer: <input type="checkbox" name="soccer" value="soccer"> <br><br>
+    </div>
+
+    <div class="input">
+    <label for="">County</label>
+    <select name="dropdown" id="">
+        <option value="">Nairobi</option>
+        <option value="">Nakuru</option>
+        <option value="">Naivasha</option>
+        <option value="">Mombasa</option>
+        <option value="">Eldoret</option>
+        <option value="">Kisumu</option>
+        <option value="">Machakos</option>
+        <option value="">TaitaTaveta</option>
+        <option value="">Nyeri</option>
+    </select> <br><br>
+    </div>
+    <div id="button">
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </div>
+
+
+</form>
+
+
+
+
+
+</body>
+</html>

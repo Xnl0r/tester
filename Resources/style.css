@@ -1,0 +1,49 @@
+h2{
+    color: cadetblue;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+p{
+    font-family: "Droid Sans Mono Slashed";
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: coral;
+}
+.navbar .logo a{
+    font-size: 30px;
+    font-weight: 600;<h2>
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 10px;
+    font-family: cursive;
+}
+.navbar .menu a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: bisque;
+    text-decoration: underline;
+    font-size: 22px;
+}
